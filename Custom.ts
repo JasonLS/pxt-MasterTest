@@ -1,4 +1,4 @@
-namespace robot {
+namespace masterrobot {
     export class Robot {
         constructor() { }
 
