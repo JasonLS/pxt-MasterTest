@@ -4,22 +4,12 @@ namespace robot {
         constructor() { }
 
         //% blockId="Test" block="Play Music"
-        move() {
+        move():void {
 
             // do nothing – don’t crash!
 
         }
-
-        light() {
-
-            return 0;
-
-        }
-
+    
     }
-
-
-
-    export let currentRobot: Robot; // ß libraries can set this field when loading
-
+    export let currentRobot: Robot; //libraries can set this field when loading
 }
